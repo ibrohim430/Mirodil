@@ -1,0 +1,76 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        height: 100%;
+        font-family: Arial, sans-serif;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .container {
+        max-width: 1350px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .parent-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .child-box {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .child-box p {
+        cursor: pointer;
+    }
+
+    .logo {
+        width: 123px;
+        height: 51px;
+        object-fit: contain;
+    }
+
+    /* Har slide uchun background */
+    .slide1 {
+        background: linear-gradient(105.54deg, #F4A764 -2.93%, #FFDEC2 72.14%);
+    }
+
+    .slide2 {
+        background: linear-gradient(105.54deg, #ADB0B0 -2.93%, #E1E1E1 72.14%);
+    }
+
+    .slide3 {
+        background: linear-gradient(105.54deg, #30A357 -2.93%, #75E39A 72.14%);
+    }
+
+    .slide4 {
+        background: linear-gradient(105.54deg, #F24F4F -2.93%, #FFA895 72.14%);
+    }
+
+    .main{
+        display: flex;
+        justify-content: space-between;
+    }
